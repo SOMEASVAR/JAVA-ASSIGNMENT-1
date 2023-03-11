@@ -58,4 +58,82 @@ public class two
 ```
 ## Output:
 ![image](https://user-images.githubusercontent.com/93434149/224462104-d4fdea99-f3d9-4092-ada4-eb31326520c7.png)
+# 3.Write a Java program to convert a string to an integer.
+## Program:
+```
+public class three {
+    public static void main(String[] args) {
+        String sa = "100";
+        int a = Integer.parseInt(sa);
+        System.out.println(a);
+    }
+
+}
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224462467-8c33a8b6-1ff5-4664-ac53-8e60930dc888.png)
+# 4.Java Program to find area of rhombus
+## Program:
+```
+import java.util.Scanner;
+
+public class four
+{
+    public static void main(String[] args)
+    {
+        Scanner sd =new Scanner(System.in);
+        System.out.println("Enter the value 1:");
+        int l= sd.nextInt();
+        System.out.println("Enter the value 2:");
+        int k = sd.nextInt();
+        int area=(l*k)/2;
+        System.out.println("Area of the rhombus:");
+        System.out.println(area);
+
+
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224462717-e6ca2db7-f12a-4b43-b07b-e57a261b043a.png)
+# 5. Write a Java program to find the number of days in a month.
+## Program:
+```
+import java.util.Scanner;
+
+public class five
+{
+    public static void main(String[] args)
+    {
+        Scanner se =new Scanner(System.in);
+        System.out.println("Enter the Month:");
+        int month = se.nextInt();
+        System.out.println("Enter the year:");
+        int year = se.nextInt();
+        if(month==1||month==3||month==5||month==7||month==8||month==10||month==12)
+        {
+            System.out.println("Month has 31 days");
+        }
+        else if(month==4||month==6||month==9||month==11)
+        {
+            System.out.println("Month has 30 days");
+        }
+        else
+        {
+            if(year%400==0||year%4==0&&year%100!=0)
+            {
+                System.out.println("Month has 29 days");
+            }
+            else {
+                System.out.println("Month has 28 days");
+            }
+        }
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224463068-16fb6e6f-77e9-4e34-ac34-8312e9e077ea.png)
+
 
