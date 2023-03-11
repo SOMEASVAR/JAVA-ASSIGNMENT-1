@@ -160,5 +160,51 @@ public class six
 ## Output:
 ![image](https://user-images.githubusercontent.com/93434149/224463392-ad5b002f-066c-4a50-a743-670e687291f6.png)
 
+# 7. Write a Java program to create a simple calculator.
+## Program:
+```
+import java.util.Scanner;
+
+public class seven
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value 1:");
+        int a = sc.nextInt();
+        System.out.println("Enter the value 2:");
+        int b = sc.nextInt();
+        System.out.println("Enter the operation to be done:");
+        String d = sc.next();
+        switch(d)
+        {
+            case "+":
+                System.out.println(a+b);
+                break;
+            case "-":
+                System.out.println(a-b);
+                break;
+            case "*":
+                System.out.println(a*b);
+                break;
+            case "/":
+                System.out.println(a/b);
+                break;
+            case "%":
+                System.out.println(a%b);
+                break;
+            case "&":
+                System.out.println(a&b);
+                break;
+            case "|":
+                System.out.println(a|b);
+                break;
+        }
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224463739-01d57a0c-bc9b-44d2-93b8-16387bb30e82.png)
 
 
