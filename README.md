@@ -206,5 +206,29 @@ public class seven
 ```
 ## Output:
 ![image](https://user-images.githubusercontent.com/93434149/224463739-01d57a0c-bc9b-44d2-93b8-16387bb30e82.png)
+# 8.Write a Java program to print multiplication table of a number.
+## Program:
+```
+import java.util.Scanner;
+
+public class eight
+{
+    public static void main(String[] args)
+    {
+        Scanner sq=new Scanner(System.in);
+        int f=sq.nextInt();
+        int s=sq.nextInt();
+        int i;
+        System.out.println("Tables:");
+        for(i=1;i<=s;i++)
+        {
+            System.out.println(f+"*"+i+"="+(f*i));
+        }
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224464000-a6284b40-d6e1-4c53-bc37-444439583b8c.png)
 
 
