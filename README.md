@@ -1,5 +1,5 @@
 # JAVA-ASSIGNMENT-1
-## 1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.
+# 1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.
 ## Program:
 ```
 import java.util.Scanner;
@@ -25,3 +25,37 @@ public class one {
 ```
 ## Output:
 ![image](https://user-images.githubusercontent.com/93434149/224461653-0131c3b5-6bcc-42aa-a3a2-df01934c80e8.png)
+
+# 2. Write a Java program to compare two numbers.
+## Program:
+```
+import java.util.Scanner;
+
+public class two
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value 1:");
+        int q = sc.nextInt();
+        System.out.println("Enter the value 2:");
+        int w = sc.nextInt();
+        if(q>w)
+        {
+            System.out.println("Q is greater");
+        }
+        else if(w>q)
+        {
+            System.out.println("W is greater");
+        }
+        else {
+            System.out.println("Q and W are equal");
+        }
+
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224462104-d4fdea99-f3d9-4092-ada4-eb31326520c7.png)
+
