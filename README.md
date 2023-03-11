@@ -135,5 +135,30 @@ public class five
 ```
 ## Output:
 ![image](https://user-images.githubusercontent.com/93434149/224463068-16fb6e6f-77e9-4e34-ac34-8312e9e077ea.png)
+# 6.Write a Java program to print the even numbers from 1 to 20.
+## Program:
+```
+public class six
+{
+    public static void main(String[] args)
+    {
+        int i;
+        System.out.println("Even numbers from the range 1 to 20 are:");
+        for(i=0;i<=20;i++)
+        {
+
+            if(i%2==0)
+            {
+
+                System.out.print(" " +i);
+            }
+        }
+    }
+}
+
+```
+## Output:
+![image](https://user-images.githubusercontent.com/93434149/224463392-ad5b002f-066c-4a50-a743-670e687291f6.png)
+
 
 
