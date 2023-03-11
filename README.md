@@ -1,4 +1,6 @@
 # JAVA-ASSIGNMENT-1
+### Name: Someasvar.R
+### Register Number: 212221230103
 # 1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.
 ## Program:
 ```
